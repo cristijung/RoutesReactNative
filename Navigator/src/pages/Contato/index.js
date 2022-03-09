@@ -1,12 +1,17 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Button } from 'react-native';
 
-import styleContato-css.js from '.styleContato';
+import styleContato from './styleContato.css.js'
 
-export default function Contato() {
-    return(
-        <View>
-            <Text>Contato do App</Text>
-        </View>
-    )    
+export default function Contato({navigation}) {
+  return(
+    <View>
+      <Text>Contato app</Text>
+      <Button
+        title="Home"
+         onPress = { () =>
+          navigation.navigate('Home')}
+          />
+    </View>
+  );
 }
