@@ -1,0 +1,22 @@
+/*Estilização*/
+
+.fundo {
+    color: #FF1493;
+    flex: 1;
+    font-weight: 800;
+    margin-top: auto;
+    padding: 5;
+}
+
+.btn-voltar {
+    background-color: blueviolet;
+    color: #fff;
+    line-height: 4%;
+}
+
+.card {
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+

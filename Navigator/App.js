@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './src/pages/Home';
 import Sobre from './src/pages/Sobre';
 import Contato from './src/pages/Contato';
+import Galeria from './src/pages/Galeria';
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function App() {
         />
         <Stack.Screen name="Sobre" component={Sobre} />
         <Stack.Screen name="Contato" component={Contato} />
+        <Stack.Screen name="Galeria" component={Galeria} />
       </Stack.Navigator>
     </NavigationContainer>
   );
